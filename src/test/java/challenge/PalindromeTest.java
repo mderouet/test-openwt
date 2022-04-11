@@ -68,12 +68,6 @@ public class PalindromeTest {
     }
 
     @Test
-    public void unicodeTest() throws Exception {
-        input = "\u20A9 My gym \u20A9";
-        assertFalse(palindrome.isPalindrome(input));
-    }
-
-    @Test
     public void alphaNumericPalindromeTest() throws Exception {
         input = "Air 2 an a2ria";
         assertTrue(palindrome.isPalindrome(input));
